@@ -1,0 +1,23 @@
+//slot component<template>
+  <div class="slots">
+      THE uses of slot
+      <SlotChild>
+          <div class="no-name">I am slot</div>
+      </SlotChild>
+  </div>
+</template>
+
+<script>
+import SlotChild from './slotChild'
+export default {
+    name: 'slots',
+    components:{
+        SlotChild
+    },
+    data () {
+        return {
+      
+        }
+    }
+}
+</script>
